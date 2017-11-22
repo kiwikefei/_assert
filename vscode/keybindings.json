@@ -1,0 +1,138 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    { "key": "shift+cmd+n",             "command": "extension.advancedNewFile" },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.openPreviousEditorFromHistory"
+    },
+    {
+        "key": "l",
+        "command": "list.expand",
+        "when": "listFocus"
+    },
+    {
+        "key": "right",
+        "command": "-list.expand",
+        "when": "listFocus"
+    },
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "listFocus"
+    },
+    {
+        "key": "left",
+        "command": "-list.collapse",
+        "when": "listFocus"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+t",
+        "command": "better-phpunit.run"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "-better-phpunit.run"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "better-phpunit.run-previous"
+    },
+    {
+        "key": "cmd+k cmd+p",
+        "command": "-better-phpunit.run-previous"
+    },
+    {
+        "key": "cmd+y",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+y",
+        "command": "php-cs-fixer.fix"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "editor.action.showContextMenu",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f10",
+        "command": "-editor.action.showContextMenu",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "shift+cmd+=",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    }
+]
